@@ -19,17 +19,17 @@ export const Header = styled('div', {
   },
 })
 
-export const Form = styled(Box,{
-  marginTop: '$6', 
+export const Form = styled(Box, {
+  marginTop: '$6',
   display: 'flex',
   flexDirection: 'column',
   gap: '$4',
 
-  label:{
+  label: {
     display: 'flex',
     flexDirection: 'column',
     gap: '$2',
-  }
+  },
 })
 
 export const FormError = styled(Text, {

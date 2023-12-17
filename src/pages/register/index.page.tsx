@@ -79,18 +79,14 @@ export default function Register() {
             {...register('username')}
           ></TextInput>
         </label>
-
         {errors.username && (
           <FormError size="sm">{errors.username.message}</FormError>
         )}
-
         <label>
           <Text size="sm">Nome completo</Text>
           <TextInput placeholder="Seu nome" {...register('name')}></TextInput>
         </label>
-
         {errors.name && <FormError size="sm">{errors.name.message}</FormError>}
-
         <Button type="submit" disabled={isSubmitting}>
           Próximo passo
           <ArrowRight />
